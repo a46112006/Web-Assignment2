@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>reg.html</title>
+        <link rel=stylesheet type="text/css" href="reg.css">
+    </head>    
+    <body>
+        <form>
+            <form action="https://docs.google.com/spreadsheets/d/1vhYG8TnedmMDjipJRsUykOxoxjojd7EF7QDoRR3gBP4/edit#gid=1556363660" method="text">
+            <h2>報名表單</h2>
+            <input type="text" required id="name" name="entry.1339495092" placeholder="姓名"></br>
+            <select id="college" required name="entry.1944781450">
+            <option value="disabled selected" >請選擇</option>
+            <option>文學院</option>
+            <option>社會科學學院</option>
+            <option>商學院</option>
+            <option>傳播學院</option>
+            <option>外國語文學院</option>
+            <option>法學院</option>
+            <option>理學院</option>
+            <option>國際事務學院</option>
+            <option>教育學院</option>
+            </select></br>
+            <input type="tel" required id="cellphone" pattern="[0-9]{10}" name="cellphone" placeholder="手機"></br>       
+            <input type="email" required id="email" name="email" placeholder="E-mail"></br>
+            <input type="date" required id="birthday" name="date"></br>
+            <input type="hidden" id="studentnum" name="studentnum" value="104405008"><br>
+            <input type="submit" value="註冊" id="submit">
+        </form>
+    </body>
+</html>
